@@ -13,7 +13,7 @@ public class ScanableObject : MonoBehaviour
     [SerializeField]
     Item item;
 
-    public void OnInteract()
+    public void OnScan()
     {
         CartManager.Instance.ToggleItem(item);
     }

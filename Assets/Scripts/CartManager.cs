@@ -49,4 +49,10 @@ public class CartManager : MonoBehaviour
         }
         WriteReceipt();
     }
+
+    public void EmptyCart()
+    {
+        items.Clear();
+        WriteReceipt();
+    }
 }
